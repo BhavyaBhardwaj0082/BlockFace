@@ -40,11 +40,15 @@ export default function Home() {
       <div className="w-full max-w-6xl">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-white leading-tight">
-            Don&apos;t Stress About Creativity</h1><h1 className="text-6xl font-bold text-pink-300 leading-tight">
-            Let AI Do the Work</h1><h1 className="text-4xl font-bold mb-6 text-white leading-tight">
-            Get Your Unique Minecraft Skin
+          <h1 className="text-4xl font-bold text-white leading-tight mb-2">
+            Don&apos;t Stress About Creativity
           </h1>
+          <h2 className="text-6xl font-bold text-pink-300 leading-tight mb-2">
+            Let AI Do the Work
+          </h2>
+          <h3 className="text-4xl font-bold mb-6 text-white leading-tight">
+            Get Your Unique Minecraft Skin
+          </h3>
           
           <Link href="/generate">
             <Button 
